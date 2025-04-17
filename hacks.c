@@ -43,13 +43,13 @@ static void generate_sounds(NotificationApp* notifications) {
     furi_delay_ms(1000);
 
     const NotificationSequence my_sequence = {
-        &message_note_e4, // Нота E4
-        &message_delay_500, // Пауза 500 мс
-        &message_note_c4, // Нота C4
-        &message_delay_500, // Пауза 500 мс
-        &message_note_g3, // Нота G3
-        &message_delay_500, // Пауза 500 мс
-        &message_note_a3, // Нота A3
+        &message_note_e4, 
+        &message_delay_500, 
+        &message_note_c4, 
+        &message_delay_500, 
+        &message_note_g3, 
+        &message_delay_500, 
+        &message_note_a3, 
         NULL,   
     };
 
